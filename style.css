@@ -1,0 +1,107 @@
+.button {
+    background-color: #4CAF50;
+    color: #000;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body {
+    padding: 15px;
+    background-color: #333333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: green;
+}
+
+span {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.txt-1 {
+    color: green;
+}
+
+.test h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 0 auto; 
+}
+
+.txt-3 {
+    text-align: center; 
+    display: block; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: green;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #44b560;
+}
+
+a:hover {
+    color: #013e0f;
+}
+
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    color: white;
+}
+
+a.button:hover {
+    background-color: #008509;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.row {
+    margin: 0 -18px;
+    padding: 8px;
+}
+
+.row > .column {
+    padding: 6px;
+}
+
+.column {
+    float: none;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    margin-bottom: 20px;
+    margin-left: 30px; 
+    background-color: #4c4d4d;
+    padding: 20px; 
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
